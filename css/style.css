@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+
+.box {
+	border: 1px dashed greens;
+}
+
+.card_wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+.card {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 20px 0;
+}
