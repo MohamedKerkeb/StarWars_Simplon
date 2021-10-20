@@ -26,8 +26,17 @@ li {
 	border-radius: 5px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	padding: 20px;
 	margin: 20px 0;
+	display: none;
+}
+
+.title {
+	cursor: pointer;
+}
+
+.active {
+	display: block;
 }
